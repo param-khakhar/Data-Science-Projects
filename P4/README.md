@@ -1,0 +1,5 @@
+## Bayesian Tomatoes
+
+This project involves the usage of the Naive Bayes Classifier in order to predict whether the movie is fresh or not based on the reviews of the critics. The data for the project is present in the file 'critics.csv'. After performing classification, we interpret the results and perform sentiment analysis. We also check for the caliberation of the classifiers by performing a caliberation plot. We first convert the queries into a Bag-Of-Words model matrix and individual queries are represented as vectors. The classifier learns the features which are important and also we have displayed the most significant words for fresh and rotten reviews respectively.
+
+However, the model also makes mispredictions and one of the main reasons for this to happen is that since we are considering a single word in the query, the model fails to consider that not outstanding, superior and peaceful would imply that the comment is actually a criticism. We increase the complexity by using bi-grams instead and improve the model.
